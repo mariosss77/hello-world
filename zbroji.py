@@ -1,6 +1,6 @@
 # Simple python file
 
-# New branch, adding decorator 
+# Adding decorator 
 def decorator(func):
 	def wrapper(x, y):
 		print(f'Result is: {func(x, y)}')
